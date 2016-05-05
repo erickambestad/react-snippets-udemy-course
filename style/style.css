@@ -1,0 +1,50 @@
+.user-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.card {
+    width: 30%;
+    min-width: 300px;
+}
+
+.search-bar {
+    margin: 20px;
+}
+
+.search-bar input {
+    width: 100%;
+}
+
+.video-item img {
+    max-width: 64px;
+}
+
+.video-detail .details {
+    margin-top: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.list-group-item {
+    cursor: pointer;
+}
+
+.list-group-item:hover {
+    background-color: #eee;
+}
+
+.input-group {
+    margin: 20px 0px;
+}
+
+td, th {
+    text-align: center !important;
+    vertical-align: middle !important;
+}
+
+td:first-of-type {
+    height: 200px;
+    width: 250px;
+}
